@@ -1,0 +1,4 @@
+1. Get the routers IP using command: sudo ifconfig h3-eth0 
+    -> Routers/Switch IP : 10.0.2.15
+
+2. To start the attack run: sudo python3 arp_spoofer.py -i eth0 -r {routersIP} -t {targetsIP}
